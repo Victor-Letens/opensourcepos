@@ -536,7 +536,7 @@ class Items extends Secure_Controller
 		if($item_data['item_type'] == ITEM_TEMP)
 		{
 			$item_data['stock_type'] = HAS_NO_STOCK;
-			$item_data['receiving_quantity'] = 0;
+			$item_data['receiving_quantity'] = 10;
 			$item_data['reorder_level'] = 0;
 		}
 
